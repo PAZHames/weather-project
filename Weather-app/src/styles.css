@@ -1,0 +1,86 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+h1 {
+  color: white;
+  text-align: center;
+  background-color: #99ce99;
+  padding: 40px;
+  border-radius: 10px;
+  font-size: 58px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+card {
+  border-color: #99ce99;
+  margin: 20px;
+  padding: 20px;
+  border-style: solid;
+  border-width: 1em 2em;
+}
+
+.today {
+  font-size: 24px;
+  font-weight: 500;
+}
+.details {
+  font-size: 18px;
+  box-shadow: 2px 2px 2px #99ce99;
+}
+.details,
+.today {
+  color: #4eae53;
+  border-radius: 15px;
+}
+.city,
+.today {
+  background-color: #eaf5ea;
+}
+.card {
+  border-color: #99ce99;
+  text-align: center;
+  border-width: 2px 3px;
+}
+.search {
+  color: #ffa726;
+  border-color: #ffa726;
+  border-radius: 20px;
+  box-shadow: 2px 2px 2px #ffa726;
+}
+.search,
+.city {
+  font-size: 34px;
+  font-weight: 500;
+  border-radius: 40px;
+  border-width: 2px 3px;
+}
+
+.rain-symbol,
+.sun-symbol {
+  color: #ffff;
+}
+.form-control {
+  text-align: center;
+}
+.btn {
+  background-color: #ffa726;
+  color: #ffff;
+  border: #ffa726;
+  box-shadow: 2px 2px 2px #ffa726;
+  border-radius: 15px;
+  padding: 10px;
+}
+.btn:hover {
+  background-color: #ffff;
+  color: #ffa726;
+}
+.search-box {
+  padding: 10px;
+  border-radius: 15px;
+}
+#current-time {
+  display: block;
+  margin: 0 auto;
+  font-size: 18px;
+}
